@@ -1,8 +1,8 @@
-![Photo](/D:/RS School/rsschool-cv/photo_cv.jpg "Elizaveta Banderuk")
-# Elizaveta Banderuk
-### Junior Frontend Developer
-++++
-## Contact information
+![Photo](https://github.com/elizavetabanderuk/rsschool-cv/blob/gh-pages/photo_cv.jpg "Elizaveta Banderuk") 
+# Elizaveta Banderuk 
+### Junior Frontend Developer 
+*****  
+## Contact information 
 * Location: Minsk, Belarus  
 * Phone: + 37529 804-06-57  
 * E-mail: e.banderuk@gmail.com  
@@ -13,7 +13,7 @@
 I've been an international affairs manager for 4 years, working with partners from America, Europe and Asia. I have C1 level in English and a lot of expertise in spoken and written communication.   
 Now I am studying to become a frontend developer. I believe my business knowledge and experience will help me succeed in this job.   
 
-## Skills 
+## Skills  
 1. HTML  
 2. CSS  
 3. Git/GitHub 
@@ -37,12 +37,14 @@ print (find_prices_for_state_procurement_procedure2(209000, 21829.93))
 ## Education 
 **Belarusian State Economic University (2014-2019)** - Master of Economics *(International economic affairs management)*   
 **Code Basics** - Python для начинающих  
-**The Rolling Scopes** - JS/FE Pre-School 2022 
-**Alison Course (March 2021)** - Agile Essentials: A Practical Guide to the Agile Process 
-
+**The Rolling Scopes** - JS/FE Pre-School 2022  
+**Alison Course (March 2021)** - Agile Essentials: A Practical Guide to the Agile Process  
+ 
 ## Languages 
-| Language    | Level of proficiency | Link to certificate                                     |  
-|:--------    |:--------------------:|--------------------------------------------------------:| 
+ 
+| Language    | Level of proficiency | Link to certificate                                     | 
+|:---------   |:--------------------:|--------------------------------------------------------:| 
 | English     | C1 ADVANCED          | [EF SET Certificate](https://www.efset.org/cert/T1JQRy) | 
 | German      | A2 ELEMENTARY        | None                                                    | 
 | Russian     | C2 PROFICIENT        | Native speaker                                          | 
+ 
