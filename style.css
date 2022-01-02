@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Montserrat;
+   src: url("assets/fonts/Montserrat-SemiBold.ttf");
+ }
+@font-face {
+  font-family: Quicksand;
+   src: url("assets/fonts/Quicksand-Light.ttf");
+ }
+.body{
+min-height: 100vh;
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: column;
+position: relative;
+justify-content: center;
+flex-wrap: wrap;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+@media (max-width: 768px) {
+  .body {
+    width: 100%;
+  }
+}
+.section-title {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1pt;
+  font-size: 26px;
+  line-height: 0.5;
+}
+.hr1 {
+  border: none; 
+  background-color: rgb(252, 249, 249); 
+  color: rgb(250, 245, 245); 
+  height: 4px; 
+  width:100px;
+ }
+.hr2 {
+  border: none; 
+  background-color: rgb(3, 0, 0); 
+  color: rgb(3, 0, 0); 
+  height: 4px; 
+  width:100px;
+ }
+.nav-list {
+display: flex;
+justify-content: space-around;
+align-items: center;
+list-style: none;
+margin: 0;
+padding: 0 20px;
+height: 8vh;
+background: rgb(245, 242, 235);
+font-family: Montserrat, sans-serif;
+font-weight: 600;
+gap: 10px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+  transition: .0.5s;
+}
+a:visited { color: rgb(8, 95, 22); }
+a:hover { background: rgb(238, 222, 183); }
+a:active { color: rgb(3, 0, 0); } 
+.div {
+flex: 1;
+flex-direction: column;
+font-family: Montserrat, sans-serif;
+justify-content: center;
+}
+.main1{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
+background: rgb(245, 242, 235);
+margin: 0;
+gap: 20px;
+padding: 0;
+font-family: Quicksand, sans-serif;
+height: calc(100%-16%);
+}
+.main2{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: baseline;
+align-content: flex-start;
+background: rgb(19, 13, 1);
+gap: 3px;
+padding: 20px;
+font-family: Quicksand, sans-serif;
+color: white;
+width: 50%;
+height: calc(100%-18%);
+}
+.footer {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+background-color: rgb(245, 242, 235);
+padding: 5px;
+height: 8vh;
+font-family: Montserrat, sans-serif;
+}

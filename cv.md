@@ -1,4 +1,4 @@
-![Photo](https://github.com/elizavetabanderuk/rsschool-cv/blob/gh-pages/photo_cv.jpg "Elizaveta Banderuk") 
+![Photo](./photo_cv.jpg "Elizaveta Banderuk") 
 # Elizaveta Banderuk 
 ### Junior Frontend Developer 
 *****  

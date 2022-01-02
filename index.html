@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="assets/cv_icon.ico">
+</head>
+<body class="body">
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#anchor_summary">Summary</a></li>
+                <li><a href="#anchor_contact">Contact information</a></li>
+                <li><a href="#anchor_skills">Skills</a></li>
+                <li><a href="#anchor_code">Code</a></li>
+                <li><a href="#anchor_education">Education</a></li>
+                <li><a href="#anchor_languages">Languages</a></li>
+                <li><a href="#anchor_projects">Projects</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <main class="main1">
+        <div class="main2">
+            <div><img src="./assets/img/photo_cv.jpg" alt="Photo" height="150px" width="150px"></div>
+            <h3 class="section-title" id="anchor_summary">Summary</h3>
+            <p class="hr1"></p>
+            <p>I've been an international affairs manager for 4 years, working with partners from America, Europe and Asia. I have C1 level in English and a lot of expertise in spoken and written communication.<br>
+            Now I am studying to become a frontend developer. I believe my business knowledge and experience will help me succeed in this job.
+            </p>
+            <h3 class="section-title" id="anchor_skills">Skills</h3>
+            <p class="hr1"></p>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git/GitHub</li>
+                <li>Python</li>
+            </ol> 
+            <h3 class="section-title" id="anchor_contact">Contact information</h3>
+            <p class="hr1"></p>
+            <ul>
+                <li>Location: Minsk, Belarus</li>
+                <li>Phone: + 37529 804-06-57</li>
+                <li>E-mail: e.banderuk@gmail.com</li>
+                <li>LinkedIn: <a href="www.linkedin.com/in/liza-banderuk">Elizaveta Banderuk</a></li>
+                <li>GitHub: <a href="https://github.com/elizavetabanderuk">elizavetabanderuk</a></li>
+            </ul>
+        </div>
+        <div>
+            <div>
+                <h1>Elizaveta Banderuk</h1> 
+                <h2>Junior Frontend Developer</h2>
+            </div>
+            <h3 class="section-title" id="anchor_education">Education</h3>
+            <p class="hr2"></p>
+            <ul style="list-style: none;">
+                <li><b>Belarusian State Economic University (2014-2019)</b> - Master of Economics <i>(International economic affairs management)</i></li>
+                <li><b>Code Basics (2021)</b> - Python for beginers</li>
+                <li><b>Alison Course (March 2021)</b> - Agile Essentials: A Practical Guide to the Agile Process</li>
+            </ul>
+            <h3 class="section-title" id="anchor_languages">Languages</h3>
+            <p class="hr2"></p>
+            <table border="2px" cellpadding="8px">
+                <tr style="font-weight: bold;"> 
+                    <td>Language</td>
+                    <td>Proficiency</td>
+                </tr>
+                <tr> 
+                    <td>English</td>
+                    <td style="text-transform: uppercase;"><i> C1 Advanced </i></td>
+                </tr>
+                <tr> 
+                    <td>German</td>
+                    <td style="text-transform: uppercase;"><i> A2 Elementary </i></td>
+                </tr>
+                <tr> 
+                    <td>Russian</td>
+                    <td style="text-transform: uppercase;""><i> C2 PROFICIENT </i></td>
+                </tr>
+            </table>
+            <h3 class="section-title" id="anchor_code">Code</h3>
+            <p class="hr2"></p>
+            <code>
+                <pre style="font-family: Quicksand, sans-serif;""> 
+    def find_prices_for_state_procurement_procedure2(qty_total, sum_total): 
+    price1 = round(sum_total/1.1/qty_total, 2) 
+    qty1 = 1 
+    while qty1 <= qty_total: 
+        qty2 = qty_total - qty1 
+        price2 = (sum_total - qty1 * price1 * 1.1) / 1.1 / qty2 
+        if price2 % round(price2, 2) < 0.0000005: 
+            return ("Quantity 1 = " + str(qty1)) 
+        qty1 = qty1 + 1   
+    print (find_prices_for_state_procurement_procedure2(209000, 21829.93))
+                </pre>
+            </code> 
+            <h3 class="section-title" id="anchor_projects">Projects</h3>
+            <p class="hr2"></p>
+            <p><a href="https://elizavetabanderuk.github.io/rsschool-cv/">CV</a></p>
+        </div>
+    </main>
+    <footer class="footer">
+        <div><a href="https://github.com/elizavetabanderuk">GitHub</a></div>
+        <div>2022</div>
+        <div><a href="https://rs.school/"><img src="./assets/img/logo-rsschool3.png" alt="RS School" height="54px" width="150px"></a></div>
+    </footer>
+    
+</body>
+</html>
