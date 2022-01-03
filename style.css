@@ -37,14 +37,14 @@ margin-right: auto;
   color: rgb(250, 245, 245); 
   height: 4px; 
   width:100px;
- }
+}
 .hr2 {
   border: none; 
   background-color: rgb(3, 0, 0); 
   color: rgb(3, 0, 0); 
   height: 4px; 
   width:100px;
- }
+}
 .nav-list {
 display: flex;
 justify-content: space-around;
@@ -114,10 +114,10 @@ td, th {
   width: 140px;
   border: double;
   border-width: 2px;
-  }
-  code {
-    font-family: "Quicksand, sans-serif;";
-    font-size: 115%;
-    line-height: 1.1;
-    white-space: pre;
-  }
+}
+code {
+  font-family: "Quicksand, sans-serif;";
+  font-size: 115%;
+  line-height: 1.1;
+  white-space: pre-wrap;
+}
