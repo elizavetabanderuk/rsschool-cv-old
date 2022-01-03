@@ -109,3 +109,15 @@ padding: 5px;
 height: 8vh;
 font-family: Montserrat, sans-serif;
 }
+td, th {
+  padding: 5px;
+  width: 140px;
+  border: double;
+  border-width: 2px;
+  }
+  code {
+    font-family: "Quicksand, sans-serif;";
+    font-size: 115%;
+    line-height: 1.1;
+    white-space: pre;
+  }
