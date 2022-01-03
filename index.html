@@ -86,10 +86,10 @@
     def find_prices_for_state_procurement_procedure2(qty_total, sum_total): 
     price1 = round(sum_total/1.1/qty_total, 2) 
     qty1 = 1 
-    while qty1 &lt= qty_total: 
+    while qty1&lt=qty_total: 
         qty2 = qty_total - qty1 
         price2 = (sum_total - qty1 * price1 * 1.1) / 1.1 / qty2 
-        if price2 % round(price2, 2) &lt 0.0000005: 
+        if price2 % round(price2, 2)&lt0.0000005: 
             return ("Quantity 1 = " + str(qty1)) 
         qty1 = qty1 + 1   
     print (find_prices_for_state_procurement_procedure2(209000, 21829.93)) 
