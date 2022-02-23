@@ -24,19 +24,20 @@
     </header>
     <main class="main1">
         <div class="main2">
-            <div><img src="./assets/img/photo_cv.jpg" alt="Photo" height="150" width="150"></div>
+            <div><img src="./assets/img/photo_cv.jpg" alt="Photo" height="150" width="150" style="border-radius: 25px;"></div>
             <h3 class="section-title" id="anchor_summary">Summary</h3>
             <p class="hr1"></p>
             <p>I've been an international affairs manager for 4 years, working with partners from America, Europe and Asia. I have C1 level in English and a lot of expertise in spoken and written communication.<br>
-            Now I am studying to become a frontend developer. I believe my business knowledge and experience will help me succeed in this job.
+            Now I am studying to become a frontend developer. I believe my business knowledge and experience will help me succeed in this sphere.
             </p>
             <h3 class="section-title" id="anchor_skills">Skills</h3>
             <p class="hr1"></p>
             <ol>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>Git/GitHub</li>
+                <li>JavaScript</li>
                 <li>Python</li>
+                <li>Git/GitHub</li>
             </ol> 
             <h3 class="section-title" id="anchor_contact">Contact information</h3>
             <p class="hr1"></p>
@@ -48,7 +49,7 @@
                 <li>GitHub: <a href="https://github.com/elizavetabanderuk">elizavetabanderuk</a></li>
             </ul>
         </div>
-        <div>
+        <div class="main3">
             <div>
                 <h1>Elizaveta Banderuk</h1> 
                 <h2>Junior Frontend Developer</h2>
@@ -56,9 +57,13 @@
             <h3 class="section-title" id="anchor_education">Education</h3>
             <p class="hr2"></p>
             <ul style="list-style: none;">
-                <li><b>Belarusian State Economic University (2014-2019)</b> - Master of Economics <i>(International economic affairs management)</i></li>
-                <li><b>Code Basics (2021)</b> - Python for beginers</li>
+                <li><b>RS School (December 2021 - February 2022)</b> - JS / FRONT-END. STAGE 0</li>
+                <li><b>Code Basics (December 2021)</b> - JavaScript for beginners</li>
+                <li><b>Code Basics (December 2021)</b> - HTML for beginners</li>
+                <li><b>Code Basics (December 2021)</b> - CSS for beginners</li>
+                <li><b>Code Basics (November 2021)</b> - Python for beginers</li>
                 <li><b>Alison Course (March 2021)</b> - Agile Essentials: A Practical Guide to the Agile Process</li>
+                <li><b>Belarusian State Economic University (2014-2019)</b> - Master of Economics <i>(International economic affairs management)</i></li>
             </ul>
             <h3 class="section-title" id="anchor_languages">Languages</h3>
             <p class="hr2"></p>
@@ -82,22 +87,30 @@
             </table>
             <h3 class="section-title" id="anchor_code">Code</h3>
             <p class="hr2"></p>
-            <code>       
-    &lt;style&gt;
-    @keyframes color-change{
-      0% { color: black; }
-      50% { color: white; }
-      100% { color: black; }
-    }
-    .black-white{
-      animation: color-change 2s infinite;
-    }
-    &lt;/style&gt;
-    &lt;p class="black-white"&gt;some text&lt;/p&gt;                    
-            </code> 
+            <p class="section-title" style="font-size: 70%;">Find the missing element between two arrays</p>
+            <div class="code"><code>  function findMissing(arr1, arr2) {
+                    let cmpr1 = arr1.sort(function(a, b){return a - b});
+                    let cmpr2 = arr2.sort(function(a, b){return a - b});
+                    if(arr1.length > arr2.length){
+                    for(i=0; i&lt;arr1.length; i++){
+                      if(arr1[i] !== arr2[i]){
+                        return arr1[i];
+                      }
+                    }
+                  } else {
+                    for(i=0; i&lt;arr2.length; i++){
+                      if(arr2[i] !== arr1[i]){
+                        return arr2[i];
+                      }
+                    }   
+                  }
+                  } </code> 
+                </div>
             <h3 class="section-title" id="anchor_projects">Projects</h3>
             <p class="hr2"></p>
-            <p><a href="https://elizavetabanderuk.github.io/rsschool-cv/">CV</a></p>
+            <div style="font-weight: 600;"><a href="https://rolling-scopes-school.github.io/elizavetabanderuk-JSFEPRESCHOOL/portfolio/">Web-site for a photographer</a></div>
+            <div style="font-weight: 600;"><a href="https://elizavetabanderuk.github.io/new/">API Image Gallery</a></div>
+            <div style="font-weight: 600;"><a href="https://www.codewars.com/users/elizavetabanderuk">CodeWars</a></div>
         </div>
     </main>
     <footer class="footer">

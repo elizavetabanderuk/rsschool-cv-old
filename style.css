@@ -15,9 +15,10 @@ flex-direction: column;
 position: relative;
 justify-content: center;
 flex-wrap: wrap;
-width: 1000px;
+width: 1150px;
 margin-left: auto;
 margin-right: auto;
+background-color: rgb(252, 249, 249);
 }
 @media (max-width: 768px) {
   .body {
@@ -52,7 +53,7 @@ align-items: center;
 list-style: none;
 margin: 0;
 padding: 0 20px;
-height: 8vh;
+height: 60px;
 background: rgb(245, 242, 235);
 font-family: Montserrat, sans-serif;
 font-weight: 600;
@@ -76,28 +77,36 @@ justify-content: center;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
-align-items: flex-start;
-align-content: flex-start;
 background: rgb(245, 242, 235);
 margin: 0;
 gap: 20px;
 padding: 0;
 font-family: Quicksand, sans-serif;
-height: calc(100%-16%);
 }
 .main2{
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
-align-items: baseline;
-align-content: flex-start;
 background: rgb(19, 13, 1);
 gap: 3px;
 padding: 20px;
 font-family: Quicksand, sans-serif;
 color: white;
 width: 50%;
-height: calc(100%-18%);
+height: inherit;
+}
+.main3{
+  height: inherit;
+}
+.code{
+font-family: Quicksand, sans-serif;  
+font-size: small;
+font-weight: 300;
+background-color: rgb(252, 249, 249);
+width: 47%;
+color: rgb(3, 92, 133);
+border: solid;
+border-color: black;
 }
 .footer {
 display: flex;
@@ -106,7 +115,7 @@ justify-content: space-evenly;
 align-items: center;
 background-color: rgb(245, 242, 235);
 padding: 5px;
-height: 8vh;
+height: 60px;
 font-family: Montserrat, sans-serif;
 }
 td, th {
@@ -121,3 +130,12 @@ code {
   line-height: 0.8;
   white-space: pre-wrap;
 }
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 1s;
+  color: inherit;
+}
+a:visited { color: inherit;}
+a:hover { color: rgb(3, 92, 133); }
+a:active { color: rgb(3, 92, 133);}
